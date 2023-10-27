@@ -10,7 +10,7 @@ generateImageButton.addEventListener('click', function () {
 
     if (screenWidth <= 1100) {
         // For small screens (e.g., mobile devices)
-        imageWidth = 400;
+        imageWidth = 550;
         imageHeight = 1200;
     } else {
         // For larger screens
