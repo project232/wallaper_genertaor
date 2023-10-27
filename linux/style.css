@@ -1,0 +1,27 @@
+
+#image-container {
+    text-align: center;
+    margin-top: 20px;
+}
+#generate-image {
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 50px;
+    background: linear-gradient(red,black,blue,brown);
+    -webkit-background-clip: text;
+            color: transparent;
+}
+
+h1{
+    background: linear-gradient(indigo,skyblue,black);
+    -webkit-background-clip: text;
+            color: transparent;
+}
+#logo{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: dotted black 2px;
+
+}
