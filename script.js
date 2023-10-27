@@ -8,7 +8,7 @@ generateImageButton.addEventListener('click', function () {
     // Determine the image dimensions based on the screen width
     let imageWidth, imageHeight;
 
-    if (screenWidth <= 800) {
+    if (screenWidth <= 900) {
         // For small screens (e.g., mobile devices)
         imageWidth = 400;
         imageHeight = 900;
