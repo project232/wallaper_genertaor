@@ -25,3 +25,24 @@ h1{
     border: dotted black 2px;
 
 }
+/* Define the default styles for the generative image */
+#random-image {
+    max-width: 100%; /* Ensure the image is responsive and scales down to fit its container */
+    height: auto; /* Automatically adjust the height to maintain aspect ratio */
+}
+
+/* Media query for small screens (e.g., mobile devices) */
+@media (max-width: 900px) {
+    #random-image {
+        max-width: 100%; /* Adjust the maximum width for small screens */
+        height: auto; /* Let the height adjust automatically */
+    }
+}
+
+/* Media query for larger screens */
+@media (min-width: 901px) {
+    #random-image {
+        max-width: 100%; /* Adjust the maximum width for larger screens */
+        height: auto; /* Let the height adjust automatically */
+    }
+}
